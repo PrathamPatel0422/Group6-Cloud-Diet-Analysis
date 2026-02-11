@@ -7,7 +7,7 @@ import os
 os.makedirs("simulated_nosql", exist_ok=True)
 
 def process_nutritional_data_from_azurite():
-    # ✅ Correct way to connect to Azurite
+    # Correct way to connect to Azurite
     connect_str = "UseDevelopmentStorage=true"
 
     blob_service_client = BlobServiceClient.from_connection_string(
