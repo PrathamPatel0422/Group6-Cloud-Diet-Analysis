@@ -3,9 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# ----------------------------
 # Settings / Paths
-# ----------------------------
+
 DATA_PATH = os.path.join("data", "All_Diets.csv")
 OUTPUT_DIR = "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
